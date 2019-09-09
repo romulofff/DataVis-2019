@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <title>D3 Intro</title>
+    
+  </head>
+  <body>
+    <!-- page content -->
+    <h1>D3 Intro</h1>
+    <h2>Barras 1 - Vinculando um Vetor a dados</h2>
+        <div id="b1"></div>
+    <h2>Barras 2 - Vinculando um Vetor de objetos</h2>
+        <div id="b2"></div>
+    <h2>Barras 3 - Carregando dados de um arquivo</h2>
+        <div id="b3"></div>
+    <h2>Barras 4 - Ordenando dados</h2>
+        <div id="b4"></div>
+    
+    <script type="module">
+
+        // Load the Observable runtime and inspector.
+        import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+        
+        // Your notebook, compiled as an ES module.
+        import notebook from "https://api.observablehq.com/@romulofff/introducao-ao-d3-com-observable.js?v=3";
+        
+        // Load the notebook, observing its cells with a default Inspector
+        // that simply renders the value of each cell into the provided DOM node.
+        new Runtime().module(notebook, name => {
+            if (name === "barras1") {
+                return new Inspector(document.querySelector("#b1"))
+            }
+
+            else if (name === "barras2") {
+                return new Inspector(document.querySelector("#b2"))
+            }
+            
+            else if (name === "barras3") {
+                return new Inspector(document.querySelector("#b3"))
+            }
+            
+            else if (name === "barras4") {
+                return new Inspector(document.querySelector("#b4"))
+            }
+
+        });
+    </script>  
+    
+
+    </body>
+    <footer>Rômulo Freire Férrer Filho - 385218</footer>
+</html>
