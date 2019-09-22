@@ -1,4 +1,7 @@
-## Aula do dia 04/09/2019
+## Aula do dia 16/09/2019
+[scatterplot.html](d3_update/scatterplot.html)<br>
+
+## Aula do dia 11/09/2019
 [scatterplot.html](d3_scale/scatterplot.html)<br>
 
 
