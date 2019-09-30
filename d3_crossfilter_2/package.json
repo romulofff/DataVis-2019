@@ -1,0 +1,14 @@
+{
+  "name": "@romulofff/d3-com-crossfilter-e-dc-js-parte-2",
+  "main": "d/7e5e1799e85e7307.js",
+  "version": "200.0.0",
+  "homepage": "https://observablehq.com/@romulofff/d3-com-crossfilter-e-dc-js-parte-2",
+  "author": {
+    "name": "Rômulo Férrer Filho",
+    "url": "https://observablehq.com/@romulofff"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
