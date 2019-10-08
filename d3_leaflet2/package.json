@@ -1,0 +1,14 @@
+{
+  "name": "@romulofff/visualizacao-de-crimes-de-chicago",
+  "main": "d/fa61cd262cf21a17.js",
+  "version": "338.0.0",
+  "homepage": "https://observablehq.com/@romulofff/visualizacao-de-crimes-de-chicago",
+  "author": {
+    "name": "Rômulo Férrer Filho",
+    "url": "https://observablehq.com/@romulofff"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
