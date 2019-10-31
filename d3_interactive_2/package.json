@@ -1,0 +1,14 @@
+{
+  "name": "@romulofff/d3-com-crossfilter-dc-js-e-leaflet-parte-2",
+  "main": "04d5f95358ca5dff@78.js",
+  "version": "78.0.0",
+  "homepage": "https://observablehq.com/@romulofff/d3-com-crossfilter-dc-js-e-leaflet-parte-2",
+  "author": {
+    "name": "Rômulo Férrer Filho",
+    "url": "https://observablehq.com/@romulofff"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
